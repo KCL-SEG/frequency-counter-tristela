@@ -5,3 +5,5 @@ def frequencies(items):
     frequencies = {}
     # Your code goes here
     return frequencies
+
+#test
