@@ -3,7 +3,10 @@
 
 def frequencies(items):
     frequencies = {}
-    # Your code goes here
+    for item in items:
+        itemstr = str(item)
+        if itemstr in frequencies:
+            frequencies[itemstr]=frequencies[itemstr]+1
+        else:
+            frequencies[itemstr]=1
     return frequencies
-
-#test
